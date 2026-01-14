@@ -52,7 +52,7 @@ TARGET_NO_FACTORYIMAGE:=true
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY := 213
+TARGET_SCREEN_DENSITY := 160
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
@@ -125,8 +125,8 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := landscape_hdpi
-TW_ROTATION := 270
-TW_HWROTATION := 270
+TW_ROTATION := 90
+TW_HWROTATION := 90
 RECOVERY_TOUCHSCREEN_SWAP_Y := true
 RECOVERY_TOUCHSCREEN_FLIP_XY := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone2/temp
