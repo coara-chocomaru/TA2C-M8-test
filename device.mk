@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/onkyo/ta2cm8
+LOCAL_PATH := device/malata/ta2cm8
 PRODUCT_CHARACTERISTICS := tablet
 
-$(call inherit-product-if-exists, vendor/sts/a04br3/a04br3-vendor.mk)
+#$(call inherit-product-if-exists, vendor/malata/ta2cm8/ta2cm8-vendor.mk)
